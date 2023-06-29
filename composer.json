@@ -3,5 +3,10 @@
     "name": "etrain-interactive/samesite-cookie-manager",
     "description": "This plugin overrides default WordPress authentication functions allowing to specify SameSite Cookie's parameter: None, Lax, Strict",
     "type": "library",
-    "homepage": "https://github.com/etraininteractive/samesite-cookie-manager"
+    "homepage": "https://github.com/etraininteractive/samesite-cookie-manager",
+    "autoload": {
+        "psr-4": {
+          "Etrain\\SameSiteCookieManager\\": "."
+        } 
+    }
 }
